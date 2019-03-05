@@ -5,7 +5,7 @@ Start PWA with Webpack v4, Pug, and Stylus
 `Pug` `Webpack 4` `Javascript` `Stylus` `NodeJs`
 
 
-[![Webapck version](https://img.shields.io/badge/webapck-4-green.svg)](https://webpack.js.org/)
+[![Webapck version](https://img.shields.io/badge/webpack-4-green.svg)](https://webpack.js.org/)
 
 
 ## Usage
