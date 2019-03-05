@@ -1,9 +1,14 @@
-# PWA Starter with Webpack v4, Pug, and Stylus
-`Pug` `Webpack 4` `Javascript` `Stylus` `NodeJs`
-[![Webapck version](https://img.shields.io/badge/webapck-4-green.svg)](https://webpack.js.org/)
----
+# PWA Starter
 
-### Usage
+Start PWA with Webpack v4, Pug, and Stylus
+
+`Pug` `Webpack 4` `Javascript` `Stylus` `NodeJs`
+
+
+[![Webapck version](https://img.shields.io/badge/webapck-4-green.svg)](https://webpack.js.org/)
+
+
+## Usage
 
 To build production version use:
 
