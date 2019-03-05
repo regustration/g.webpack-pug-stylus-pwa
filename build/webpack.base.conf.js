@@ -8,7 +8,7 @@ function resolve (dir) {
 
 module.exports = {
   entry: {
-    'bba.miranda': './src/app.js',
+    app: './src/app.js',
   },
   output: {
     path: config.build.assetsRoot,

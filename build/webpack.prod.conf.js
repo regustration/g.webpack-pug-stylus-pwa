@@ -51,8 +51,7 @@ const webpackConfig = merge(baseWebpackConfig, {
   plugins: [
     new webpack.DefinePlugin({
       'process.env': env,
-      VERSION: JSON.stringify(require("../package.json").version),
-      INTERCOM_ID: JSON.stringify('vgdm7dvz')
+      VERSION: JSON.stringify(require("../package.json").version)
     }),
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
     // extract css into its own file
@@ -88,7 +87,8 @@ const webpackConfig = merge(baseWebpackConfig, {
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
       // necessary to consistently work with multiple chunks via CommonsChunkPlugin
-      chunksSortMode: 'dependency'
+      chunksSortMode: 'dependency',
+      // customScripts: `<script>${loadMinified(path.join(__dirname, './service-worker-prod.js'))}</script>`
     }),
     new WebpackPwaManifest(config.manifest),
     // copy custom static assets
