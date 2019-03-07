@@ -54,7 +54,7 @@ const manifest = {
   theme_color: '#384148',
   background_color: '#384148',
   display: 'standalone',
-  start_url: build.assetsPublicPath,
+  start_url: './index.html',
   orientation: undefined,
   icons: [
     {
